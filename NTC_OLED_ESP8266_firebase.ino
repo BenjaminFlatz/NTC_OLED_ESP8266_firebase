@@ -19,9 +19,9 @@
 U8G2_SSD1306_128X32_UNIVISION_F_SW_I2C u8g2(U8G2_R0, /* clock=*/ 5, /* data=*/ 4, /* reset=*/ 16);   // Adafruit Feather ESP8266/32u4 Boards + FeatherWing OLED
 
 
-#define FIREBASE_HOST "colorrize-a1a0f.firebaseio.com"
-#define FIRMWARE_URL "https://firebasestorage.googleapis.com/v0/b/colorrize-a1a0f.appspot.com/o/mqtt.ino.bin?alt=media&token=b2ec949f-46d8-4051-8ac4-3a06bb159008"
-#define FIREBASE_AUTH "mv5r81n16mLY6nxPKlSAHMc8xBXZ2HS6HVCwVkkt"
+#define FIREBASE_HOST ""
+#define FIRMWARE_URL ""
+#define FIREBASE_AUTH ""
 
 #define DHTPIN 5
 #define DHTTYPE DHT11
